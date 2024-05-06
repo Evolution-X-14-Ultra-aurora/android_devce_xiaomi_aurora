@@ -41,3 +41,6 @@ TARGET_OTA_ASSERT_DEVICE := houji,houjiin
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop
+
+# Inherit from the proprietary version
+include vendor/xiaomi/houji/BoardConfigVendor.mk
