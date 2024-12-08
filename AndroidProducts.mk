@@ -5,5 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_houji.mk
-
+    $(LOCAL_DIR)/lineage_aurora.mk

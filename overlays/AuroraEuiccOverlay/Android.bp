@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworksResHouji",
+    name: "AuroraEuiccOverlay",
     device_specific: true,
 }

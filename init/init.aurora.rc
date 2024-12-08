@@ -5,4 +5,4 @@
 # Euicc
 on post-fs && property:ro.boot.hwc=CN
     # Remove euicc stuffs on CN Variant
-    mount none /dev/null /odm/overlay/HoujiEuiccOverlay.apk bind
+    mount none /dev/null /odm/overlay/AuroraEuiccOverlay.apk bind

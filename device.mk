@@ -9,7 +9,7 @@
 $(call inherit-product, device/xiaomi/sm8650-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/houji/houji-vendor.mk)
+$(call inherit-product, vendor/xiaomi/aurora/aurora-vendor.mk)
 
 # Euicc
 PRODUCT_PACKAGES += \
@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
 
 # init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/init.houji.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.houji.rc \
+    $(LOCAL_PATH)/init/init.aurora.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aurora.rc \
 
 # Powershare
 PRODUCT_PACKAGES += \
@@ -29,6 +29,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResHouji \
-    HoujiEuiccOverlay \
-    SystemUIResHouji
+    FrameworksResAurora \
+    AuroraEuiccOverlay \
+    SystemUIResAurora

@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=houji
+export DEVICE=aurora
 export DEVICE_COMMON=sm8650-common
 export VENDOR=xiaomi
 export VENDOR_COMMON=${VENDOR}

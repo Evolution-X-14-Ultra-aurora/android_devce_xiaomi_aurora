@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=Xiaomi 14
+bluetooth.device.default_name=Xiaomi 14 Ultra
 
 # Display
 vendor.display.enable_qsync_timer=1
@@ -23,7 +23,7 @@ persist.vendor.fingerprint.type=udfps_optical
 persist.vendor.fingerprint.sensor_location=600|2282|109
 
 # Marketname
-ro.product.marketname=Xiaomi 14
+ro.product.marketname=Xiaomi 14 Ultra
 
 # USB
-vendor.usb.product_string=Xiaomi 14
+vendor.usb.product_string=Xiaomi 14 Ultra
