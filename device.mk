@@ -28,6 +28,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Overlays
+$(LOCAL_PATH)/overlay-evolution
+
 PRODUCT_PACKAGES += \
     FrameworksResAurora \
     AuroraEuiccOverlay \

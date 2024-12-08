@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from aurora device.
@@ -21,10 +21,24 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := 24031PN0DC
 PRODUCT_MANUFACTURER := xiaomi
 
+# Evolution-XYZ
+EVO_BUILD_TYPE := special
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_HAS_UDFPS := true
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_USES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc=$(call normalize-path-list, "aurora_global-user 14 UKQ1.231003.002 V816.0.11.3.UNACNXM release-keys")
 
 BUILD_FINGERPRINT := Xiaomi/aurora_global/aurora:14/UKQ1.231003.002/V816.0.11.3.UNACNXM:user/release-keys
 
 # GMS
+WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
