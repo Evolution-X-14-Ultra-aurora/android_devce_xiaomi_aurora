@@ -1,1 +1,0 @@
-# android_devce_xiaomi_aurora
