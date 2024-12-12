@@ -1,1 +1,1 @@
-require board=aurora|aurora_in|aurora_global|pineapple
+require board=aurora|aurorain|pineapple
