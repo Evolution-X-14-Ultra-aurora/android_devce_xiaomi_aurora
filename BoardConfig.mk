@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(KERNEL_PATH)/system_dlkm/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/6.1.57-android14-11-gd8b333a26dfd-ab11564698)
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := aurora,aurorain
+TARGET_OTA_ASSERT_DEVICE := aurora
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop

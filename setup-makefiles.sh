@@ -15,7 +15,7 @@ set -e
 
 export DEVICE=aurora
 export DEVICE_COMMON=sm8650-common
-export VENDOR=xiaomi
-export VENDOR_COMMON=${VENDOR}
+export VENDOR=aurora
+export VENDOR_COMMON=sm8650-common
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
