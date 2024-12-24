@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
 
 # init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/init.aurora.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aurora.rc \
+    $(LOCAL_PATH)/init/init.aurora.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aurora.rc
 
 # Powershare
 PRODUCT_PACKAGES += \
@@ -28,7 +28,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Overlays
-$(LOCAL_PATH)/overlay-evolution
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-evolution
 
 PRODUCT_PACKAGES += \
     FrameworksResAurora \
