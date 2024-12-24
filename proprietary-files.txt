@@ -2026,7 +2026,7 @@ vendor/etc/thermald-devices.conf
 # Touchscreen
 odm/firmware/aurora_syna_thp_config.ini
 odm/firmware/aurora_test_limits_S3910P.csv
-odm/firmware/synaptics_spi_aurora.imgo
+odm/firmware/synaptics_spi_aurora.img
 
 # Trusted User Interface
 vendor/lib64/libTxPwrJni.so
