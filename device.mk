@@ -11,6 +11,10 @@ $(call inherit-product, device/xiaomi/sm8650-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/aurora/aurora-vendor.mk)
 
+# Euicc
+PRODUCT_PACKAGES += \
+    XiaomiEuicc
+
 # init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.aurora.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aurora.rc
