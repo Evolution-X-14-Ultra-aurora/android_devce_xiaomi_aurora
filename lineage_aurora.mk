@@ -18,7 +18,7 @@ $(call inherit-product, device/xiaomi/aurora/device.mk)
 PRODUCT_DEVICE := aurora
 PRODUCT_NAME := lineage_aurora
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 24031PN0DC
+PRODUCT_MODEL := 24030PN60G
 PRODUCT_MANUFACTURER := xiaomi
 
 # Evolution-X stuff
@@ -41,7 +41,7 @@ WITH_GMS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "aurora_global-user 14 UKQ1.231003.002 V816.0.11.3.UNACNXM release-keys")
+    BuildDesc=$(call normalize-path-list, "aurora_eea-user 15 AQ3A.240627.003 OS2.0.2.0.VNAEUXM release-keys")
 
-BUILD_FINGERPRINT := Xiaomi/aurora_global/aurora:14/UKQ1.231003.002/V816.0.11.3.UNACNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/aurora_eea:15/AQ3A.240627.003/OS2.0.2.0.VNAEUXM:user/release-keys
 
